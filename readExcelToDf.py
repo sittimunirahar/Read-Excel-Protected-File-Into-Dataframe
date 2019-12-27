@@ -17,8 +17,6 @@ xlApp.Visible = False
 month = ['January', "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 final_df = pd.DataFrame() 
 
-final_df = pd.DataFrame() 
-
 for sh in xlwb.Sheets:
     
     if sh.Name in month:
