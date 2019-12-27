@@ -1,6 +1,7 @@
 # Read Excel Protected File Into Dataframe
 
 Read excel protected file into dataframe using win32com and Python
+If no password, just omit the password parameter
 
 Supported OS: Windows
 
